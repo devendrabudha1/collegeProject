@@ -1,0 +1,504 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+.pageWrapper{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  background: cyan;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.topDiv{
+  width: 96%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.firstSection{
+  width: 100%;
+  border: 2px solid blueviolet;
+  background: darkturquoise;
+}
+.secondSection{
+  margin-top: 20px;
+  background: teal;
+  width: 100%;
+  border: 2px solid blueviolet;
+}
+/* Carasoul Starts */
+#carouselExampleIndicators{
+  padding: 10px;
+}
+.carousel-inner{
+  height: 500px;
+
+}
+.images{
+  height: 500px;
+  width: 100%;
+}
+.carousel-caption{
+  color:black;
+  text-align: right;
+  margin-bottom: 65px;
+  border-left-style: outset;
+  font-family: monospace;
+}
+/*  Carasoul Ends */
+.secondSection .col{
+  width: 13.89%;
+  padding: 10px;
+}
+.secondSection .col button{
+  border: 1px solid currentColor;
+  width: 100%;
+}
+
+/* desktop view */
+@media print, screen and (min-width: 1200px) {
+  .secondSection .col{
+    display: inline-block;
+  }
+  .header .title{
+    height: 45px;
+  }
+  .header{
+    height: 92px;
+  }
+  .imgNav{
+    width: 56%;
+    height: 40px;
+    margin: 0 auto;
+  }
+  .imgNav ul li:hover{
+    background: #1e7e34;
+  }
+
+}
+/* mobile view */
+@media  screen and (max-width: 1200px) and (min-width: 1024px){
+  .secondSection .col{
+    display: inline-block;
+  }
+  .header{
+    height: 92px;
+  }
+  .imgNav{
+    width: 67%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 500px){
+  .imgNav{
+    width: 100%;
+    font-size: 11px;
+  }
+  .imgNav img{
+    width: 100%;
+  }
+}
+/* 768px */
+@media print, screen and (max-width: 768px) {
+  .secondSection .col{
+    display: contents;
+  }
+  .header .title{
+    height: auto;
+  }
+  .header{
+    height: auto;
+  }
+
+}
+@media print, screen and (max-width: 400px) {
+  .secondSection .col{
+    display: contents;
+  }
+  .header .title{
+    height: auto;
+  }
+  .header{
+    height: auto;
+  }
+  .imgNav{
+    width: 100%;
+    font-size: 11px;
+  }
+  .imgNav img{
+    width: 100%;
+  }
+  .imgNav{
+    width: 98%;
+  }
+
+}
+
+/* 1024 */
+@media screen
+ and (max-width: 1024px)
+ and (min-width: 768px)
+{
+  .secondSection .col{
+    display: contents;
+  }
+  .header .title{
+    height: auto;
+  }
+  .header{
+    height: 92px;
+  }
+  .imgNav{
+    width: 93%;
+    margin-left: auto;
+    margin-right: auto;;
+  }
+}
+@media screen
+ and (max-width: 768px)
+ and (min-width: 400px){
+   .imgNav{
+     width: 105%;
+   }
+   .imgNav li button{
+     font-size: 8px;
+   }
+ }
+/* Content Div */
+.contentDiv{
+  width: 96%;
+  margin-left: auto;
+  margin-right: auto;
+  background: lightgreen;
+  height: auto;
+  border: 2px solid blueviolet;
+  margin-top: 20px;
+  font-family: monospace;
+  padding: 40px;
+  text-align: justify;
+}
+
+/* End of Content Div */
+
+/* ReadMore */
+.shortIntro{
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+#majorDiv{
+  display: none;
+  padding-left: 40px;
+  font-size: 20px;
+}
+#upIcon{
+  display: none;
+  margin-bottom: 20px;
+}
+#downIcon{
+  margin-bottom: 20px;
+}
+#contentUpIcon{
+  display: none;
+}
+#content{
+  display: none;
+  padding-left: 40px;
+  color: red;
+  font-size: 20px;
+}
+#contentDownIcon a i, #contentUpIcon a i,#downIcon a i, #upIcon a i{
+  font-size: 30px;
+  color: black;
+  width: 36px;
+}
+
+#contentDownIcon a, #contentUpIcon a,#downIcon a, #upIcon a{
+  background: none;
+  padding: 0px;
+  border-color: black;
+}
+/* active class */
+#active{
+  background: blueviolet;
+}
+.secondSection button:hover{
+  background: blueviolet;
+}
+
+/* -------------------------Score.html-------------------------- */
+.background{
+  background: teal;
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+  padding-bottom: 5px;
+  padding-left: 60px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  margin-top: 20px;
+  font-family: monospace;
+}
+.background:hover{
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  cursor: pointer;
+}
+.title p{
+  font-size: 30px;
+  margin-top: 10px;
+  text-align: center;
+  color: floralwhite;
+  font-weight: bold;
+  background: chocolate;
+}
+/* -------------------------End of Score.html-------------------------- */
+
+/* -------------------------Shop.html-------------------------- */
+.containerShop{
+  width: 80%;
+  height: auto;
+  margin-left: 10%;
+  background: cadetblue;
+  padding-bottom: 40px;
+}
+.header{
+  padding-top: 20px;
+}
+.header .title{
+  text-align: center;
+  font-size: 28px;
+  font-family: monospace;
+  line-height: 1.5;
+  background: brown;
+  color: white;
+  margin-top: 20px;
+}
+
+.section{
+  width: 96%;
+  display: flex;
+  margin-top: 10px;
+}
+.section1{
+  height: auto;
+  width: 32%;
+  background: darkcyan;
+}
+.section1box{
+  margin: 4%;
+  width: 92%;
+  height: auto;
+}
+.boxrow{
+  height: auto;
+  display: flex;
+  margin-top: 10px;
+}
+.box{
+  width: 49%;
+  height: auto;
+}
+.box img{
+  width: 100%;
+  height: 120px;
+}
+.box1{
+  width: 49%;
+  height: auto;
+  margin-left: 2%;
+}
+.box1 img{
+  width: 100%;
+  height: 120px;
+}
+.section2{
+  height: auto;
+  width: 64%;
+  margin-left: 4%;
+  background: skyblue;
+  padding-bottom: 20px;
+}
+.section2 img{
+  width: 94%;
+  height: 400px;
+  margin: 3%;
+}
+.title_header h1{
+  font-size: 20px;
+  font-family: monospace;
+  background: brown;
+  color: aliceblue;
+  text-align: center;
+  height: 40px;
+  line-height: 2;
+}
+.details{
+  -webkit-text-stroke-width: medium;
+  font-size: 18px;
+  margin-top: 7px;
+  color: darkblue;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* -------------------------End of Score.html-------------------------- */
+
+
+.rowTitle{
+  width: 100%;
+  background: chocolate;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.contentDiv .rowTitle p.rowTitleText{
+  color: floralwhite;
+  margin-top: 15px;
+  display: inline;
+  font-family: monospace;
+  font-size: 30px;
+}
+.jsworldForm{
+  font-size: 16px;
+}
+hr.line{
+  width: 100%;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #7d12de;
+  margin-top: 10px;
+  margin-bottom: 2px;
+}
+.openClose{
+  justify-content: center;
+}
+.hideCss{
+  justify-content: center;
+  display: flex;
+}
+.openClose button{
+  height: 40px;
+  display: inline-block;
+}
+.openClose p.Captionheader{
+  color: white;
+  text-align: center;
+  font-family: monospace;
+  font-variant: petite-caps;
+  font-size: 30px;
+}
+.hideCss{
+  justify-content: center;
+  display: flex;
+}
+#imageHide{
+  width: 83%;
+  height: 330px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+#imageHide:hover{
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.HidebtnCol{
+  margin-top: 20px;
+}
+.displayImage{
+  justify-content: center;
+  display: flex;
+}
+
+/* Footer */
+.footer{
+  background: #343a40!important;
+  height: 30px;
+  color: white;
+  text-align: center;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.membershipForm{
+  font-size: 23px;
+  width: 73%;
+  margin-left: auto;
+  margin-right: auto;
+  border: 3px solid darkviolet;
+  padding: 20px;
+  background: darkturquoise;
+  font-family: monospace;
+}
+.membershipForm h1{
+  background: black;
+  color: white;
+}
+.formButton{
+  display: grid;
+}
+
+/* Clock */
+#digitalClock{
+  float: right;
+  margin-top: -20px;
+  margin-right: 20px;
+  font-size: 20px;
+}
+
+/* Animation */
+#banner {
+background-image: linear-gradient(120deg, #91C4FF 0%, #F0F7FF 87%);
+position: relative;
+width: 100%;
+height: 500px;
+}
+
+#cloud-scroll {
+background: url(http://9a2e1a2047765d2a004e-e6d2db425d8d4f2619e5cee56a48bcef.r55.cf2.rackcdn.com/clouds.png) repeat-x;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-size: cover;
+position: absolute;
+-webkit-animation: 900000s backgroundScroll infinite linear;
+-moz-animation: 900000s backgroundScroll infinite linear;
+-o-animation: 900000s backgroundScroll infinite linear;
+-ms-animation: 900000s backgroundScroll infinite linear;
+animation: 900000s backgroundScroll infinite linear;
+}
+
+@-webkit-keyframes backgroundScroll {
+from {
+background-position: 0 0;
+}
+to {
+background-position: -99999999px 0;
+}
+}
+
+@keyframes backgroundScroll {
+from {
+background-position: 0 0;
+}
+to {
+background-position: -99999999px 0;
+}
+}
+
+/* maps */
+#mymap{
+  width: 100%;
+    height: 500px;
+}
+hr{
+  margin-bottom: 3px;
+  margin-top: 0px;
+}
+.homedesc p{
+  color: black;
+  font-size: 20px;
+  font-family: monospace;
+  padding: 10px;
+  text-align: justify;
+  word-spacing: 7px;
+}

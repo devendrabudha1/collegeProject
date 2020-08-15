@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Final Projet || Shop</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="js/jquery.min.js" charset="utf-8"></script>
+    <script src="js/popper.min.js" charset="utf-8"></script>
+    <script src="js/bootstrap.min.js" charset="utf-8"></script>
+    <script src="js/main.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body style="background-image: url(img/bg.png)">
+    <div class="pageWrapper">
+      <span id=digitalClock>
+      </span>
+      <div class="row topDiv">
+        <div class="row firstSection">
+          <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img class="images"  src="img/carousel/1.jfif" alt="First slide">
+                  <div class="carousel-caption">
+                    <h2>&#8220;Nature always wears the colors of the spirit.&#8221;</h2>
+                    <p>......Ralph Waldo Emerson......</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img class="images" src="img/carousel/2.jfif" alt="Second slide">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h2>&#8220;By discovering nature, you discover yourself.&#8221;</h2>
+                    <p>......Maxime Lagacé......</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img class="images"  src="img/carousel/3.webp" alt="Third slide">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h2>&#8220;Nature is pleased with simplicity. And nature is no dummy.&#8221;</h2>
+                    <p>......Isaac Newton......</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img class="images"  src="img/carousel/5.jfif" alt="Fourth slide">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h2>&#8220;Going to the mountains is going home.&#8221;</h2>
+                    <p>......John Muir......</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img class="images"  src="img/carousel/4.webp" alt="Fourth slide">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h2>&#8220;Adopt the pace of nature. Her secret is patience.&#8221;</h2>
+                    <p>......Ralph Waldo Emerson......</p>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <!-- Carasoul Ends -->
+        </div>
+        <div class="secondSection">
+          <div class="col">
+            <a href="index.html"><button type="button" class="btn btn-primary" name="button">Top page</button></a>
+          </div>
+          <div class="col">
+            <a href="score.html"><button type="button" class="btn btn-primary" name="button">Score</button></a>
+          </div>
+          <div class="col">
+            <a href="shop.html"><button type="button" class="btn btn-primary" id="active" name="button">Shop</button></a>
+          </div>
+          <div class="col">
+            <a href="jsworld.html"><button type="button" class="btn btn-primary" name="button" href="">JS World</button></a>
+          </div>
+          <div class="col">
+            <a href="form.html"><button type="button" class="btn btn-primary" name="button" href="">Form</button></a>
+          </div>
+          <div class="col">
+            <a href="map.html"><button type="button" class="btn btn-primary" name="button" href="">Map</button></a>
+          </div>
+          <div class="col">
+            <a href="animation.html"><button type="button" class="btn btn-primary" name="button" href="">Animation</button></a>
+          </div>
+        </div>
+      </div>
+      <div class="contentDiv">
+        <div class="container containerShop">
+          <div class="header">
+            <div class="title">
+              <p>Welcome to My shop.</p>
+            </div>
+          </div>
+          <div class="section">
+            <div class="col-md-4 section1">
+              <div class="section1box">
+                <div class="boxrow" id="boxrow">
+                  <div class="box">
+                    <img src="img/shop/imacpro.jfif" alt="IMaC" onclick="myfunction(this)">
+                  </div>
+                  <div class="box1">
+                    <img src="img/shop/ipadpro.jpg" alt="Ipadpro" onclick="myfunction(this)">
+                  </div>
+                </div>
+                <div class="boxrow" id="boxrow">
+                  <div class="box">
+                    <img src="img/shop/ipodpro.jfif" alt="Ipodpro" onclick="myfunction(this)">
+                  </div>
+                  <div class="box1">
+                    <img src="img/shop/iwatch5th.jfif" alt="Iwatch 5th series" onclick="myfunction(this)">
+                  </div>
+                </div>
+                <div class="boxrow" id="boxrow">
+                  <div class="box">
+                    <img src="img/shop/beatsheadphone.jfif" alt="Beats Headphone" onclick="myfunction(this)">
+                  </div>
+                  <div class="box1">
+                    <img src="img/shop/beatsbluetooth.jfif" alt="Beats Bluetooth Earphone" onclick="myfunction(this)">
+                  </div>
+                </div>
+                <div class="boxrow" id="boxrow">
+                  <div class="box">
+                    <img src="img/shop/iphone-11-pro.jfif" alt="Iphone 11 pro" onclick="myfunction(this)">
+                  </div>
+                  <div class="box1">
+                    <img src="img/shop/iphone-se.png" alt="Iphone SE" onclick="myfunction(this)">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-8 section2" id="section2">
+              <img id="img-source" src="img/shop/imacpro.jfif">
+                <div class="title_header">
+                  <h1>iMac Pro</h1>
+                </div>
+                <div class="details">
+                  <p> Price: 558800¥ (excluding tax) </p>
+                  <p> Storage : 2256 GB SSD </p>
+                  <p> Display : 27-inch Retina 5K P3 </p>
+                  <p> Processor : 3.2GHz 8-core Intel Xeon W </p>
+                  <p> Shipping : Free </p>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <p>&#169; Copyright By Budha Devendra</p>
+    </div>
+  </body>
+</html>

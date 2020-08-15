@@ -1,0 +1,110 @@
+<html lang="en" dir="ltr">
+<head>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <script src="js/jquery.min.js" charset="utf-8"></script>
+  <script src="js/popper.min.js" charset="utf-8"></script>
+  <script src="js/bootstrap.min.js" charset="utf-8"></script>
+  <script src="js/main.js" charset="utf-8"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Final Projet || Animation</title>
+</head>
+<body style="background-image: url(img/bg.png)" onLoad="show2();moveImgX()">
+  <div class="pageWrapper">
+    <span id=digitalClock>
+    </span>
+    <div class="row topDiv">
+      <div class="row firstSection">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="images"  src="img/carousel/1.jfif" alt="First slide">
+                <div class="carousel-caption">
+                  <h2>&#8220;Nature always wears the colors of the spirit.&#8221;</h2>
+                  <p>......Ralph Waldo Emerson......</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img class="images" src="img/carousel/2.jfif" alt="Second slide">
+                <div class="carousel-caption d-none d-md-block">
+                  <h2>&#8220;By discovering nature, you discover yourself.&#8221;</h2>
+                  <p>......Maxime Lagacé......</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img class="images"  src="img/carousel/3.webp" alt="Third slide">
+                <div class="carousel-caption d-none d-md-block">
+                  <h2>&#8220;Nature is pleased with simplicity. And nature is no dummy.&#8221;</h2>
+                  <p>......Isaac Newton......</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img class="images"  src="img/carousel/5.jfif" alt="Fourth slide">
+                <div class="carousel-caption d-none d-md-block">
+                  <h2>&#8220;Going to the mountains is going home.&#8221;</h2>
+                  <p>......John Muir......</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img class="images"  src="img/carousel/4.webp" alt="Fourth slide">
+                <div class="carousel-caption d-none d-md-block">
+                  <h2>&#8220;Adopt the pace of nature. Her secret is patience.&#8221;</h2>
+                  <p>......Ralph Waldo Emerson......</p>
+                </div>
+              </div>
+            </div>
+        </div>
+        <!-- Carasoul Ends -->
+      </div>
+      <div class="secondSection">
+        <div class="col">
+          <a href="index.html"><button type="button" class="btn btn-primary" name="button">Top page</button></a>
+        </div>
+        <div class="col">
+          <a href="score.html"><button type="button" class="btn btn-primary" name="button">Score</button></a>
+        </div>
+        <div class="col">
+          <a href="shop.html"><button type="button" class="btn btn-primary" name="button">Shop</button></a>
+        </div>
+        <div class="col">
+          <a href="jsworld.html"><button type="button" class="btn btn-primary" name="button" href="">JS World</button></a>
+        </div>
+        <div class="col">
+          <a href="form.html"><button type="button" class="btn btn-primary" name="button" href="">Form</button></a>
+        </div>
+        <div class="col">
+          <a href="map.html"><button type="button" class="btn btn-primary" name="button" href="">Map</button></a>
+        </div>
+        <div class="col">
+          <a href="animation.html"><button type="button" class="btn btn-primary" id="active" name="button" href="">Animation</button></a>
+        </div>
+      </div>
+    </div>
+    <div class="contentDiv">
+      <div class="title">
+        <p>Flying Plane</p>
+      </div>
+      <p>If you want to check this design responsive or not, you have to everytime
+        refresh your browser like if you want to check in mobile view you have to firstly
+         choose mobile view on browser and refresh this browers and the same condition apply
+          on desktop view also or you can check it from mobile by clicking this link
+           <a href="https://devendrabudha1.github.io/collegeProject/animation.html" target="_blank">
+             https://devendrabudha1.github.io/collegeProject/animation.html</a></p>
+      <div id="banner">
+        <div id="cloud-scroll"></div>
+        <IMG src="img/plane.png" border="0" width = 200 height=200; id="img12" style="position:absolute; visibility:hidden">
+      </div>
+    </div>
+  </div>
+  <div class="footer">
+    <p>&#169; Copyright By Budha Devendra</p>
+  </div>
+</body>
+</html>
